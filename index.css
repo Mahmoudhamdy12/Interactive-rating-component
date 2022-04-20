@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass',sans-serif;
+}
+.container {
+    width: 375px;
+    height: 350px;
+    position: absolute;
+    padding: 30px;
+    border-radius: 15px;
+    background: hsl(213, 19%, 18%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+.container .front svg {
+    padding: 6px;
+    border-radius: 50%;
+    background: hsl(216, 12%, 54%);
+}
+.container  h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: normal;
+    margin-top: 20px;
+}
+.container  p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: hsl(217, 12%, 63%);
+    margin-top: 10px;
+}
+.container .front ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    margin-top: 20px;
+}
+.container .front ul li {
+    text-align: center;
+    /* background-color: hsl(216, 12%, 54%); */
+    background-color: hsl(216, 12%, 25%);
+    padding: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.container .front ul li.active {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.container .front ul li:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+.container .front input {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+}
+.container .back {
+    text-align: center;
+}
+.container .back svg {
+    margin: auto;
+}
+
+.container #para {
+    width: fit-content;
+    margin: auto;
+    padding: 4px 20px;
+    background-color: hsl(216, 12%, 25%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
