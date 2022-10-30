@@ -1,3 +1,4 @@
+# Demo https://mahmoudhamdy12.github.io/Interactive-rating-component/
 # Frontend Mentor - Interactive rating component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
